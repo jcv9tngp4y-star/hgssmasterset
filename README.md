@@ -26,8 +26,8 @@ have/need list to follow you between your phone and your laptop.
 - Progress bar (X / 229 collected).
 - Export/Import a JSON backup of your progress at any time — works with or
   without Firebase, and is your safety net either way.
-- Optional: Google sign-in + Firebase Firestore sync, so your progress
-  follows you across devices.
+- Optional: cross-device sync via a self-chosen "sync code" — no accounts,
+  no sign-in. Type the same code on two devices and they share progress.
 
 ## 1. Put the code on GitHub
 
@@ -60,9 +60,16 @@ At this point the app already works — open the URL and you should see the
 full set with images, filtering, and sorting. Have/need status saves to
 that browser only until you do the Firebase steps below.
 
-## 3. (Optional) Set up Firebase for cross-device sync
+## 3. (Optional) Set up Firebase for cross-device sync — no accounts needed
 
-All free, no credit card needed for this scale of use.
+All free, no credit card needed for this scale of use. This version
+deliberately skips sign-in entirely: instead, you (and anyone else who
+wants their own tracker) just pick a short code, like a nickname. Typing
+the same code into the app on two devices syncs them together. **Be aware:
+there is no real security here** — anyone who knows or guesses a code can
+read or edit that collection. Fine for a personal hobby tool shared with
+people you trust with the code; don't use this pattern for anything
+sensitive.
 
 1. Go to **[console.firebase.google.com](https://console.firebase.google.com)**
    → **Add project** → give it any name → you can decline Google Analytics,
@@ -70,29 +77,25 @@ All free, no credit card needed for this scale of use.
 2. Inside the project: click the **`</>`  (Web)** icon to register a web
    app. Give it a nickname, skip Firebase Hosting (you're using GitHub
    Pages). It'll show you a `firebaseConfig` object — keep this tab open,
-   you'll copy values from it in step 6.
-3. In the left sidebar: **Build → Authentication → Get started.** Under
-   "Sign-in method," enable **Google**, pick a support email, save.
-4. Still in Authentication: **Settings tab → Authorized domains → Add
-   domain** → add your GitHub Pages domain (e.g.
-   `<your-username>.github.io`). Without this, Google sign-in will fail on
-   your live site (it works on `localhost` by default, which is why local
-   testing can succeed while the live site doesn't — this step is easy to
-   miss).
-5. In the left sidebar: **Build → Firestore Database → Create database** →
+   you'll copy values from it in step 4.
+3. In the left sidebar: **Build → Firestore Database → Create database** →
    choose a region close to you → start in **production mode** (the rules
-   file below locks it down properly regardless).
-6. Once created, go to the **Rules** tab of Firestore, delete the default
-   contents, and paste in everything from this repo's `firestore.rules`
-   file, then **Publish**.
-7. Back in the project: **Project settings (gear icon) → General → Your
+   file below locks it down appropriately regardless). Once created, go to
+   the **Rules** tab, delete the default contents, and paste in everything
+   from this repo's `firestore.rules` file, then **Publish**.
+4. Back in the project: **Project settings (gear icon) → General → Your
    apps** → copy the `firebaseConfig` values into `js/firebase-config.js` in
    this repo (replace every `"YOUR_..."` placeholder), and change
    `FIREBASE_ENABLED` from `false` to `true` at the bottom of that file.
-8. Commit and push that change. Once GitHub Pages redeploys (usually under
-   a minute), reload your live site — you should see a working "Sign in
-   with Google" button, and your have/need choices will now sync to
-   Firestore under your account.
+5. Commit and push that change (upload it the same way you did before, it'll
+   overwrite the old copy). Once GitHub Pages redeploys (usually under a
+   minute), reload your live site — type any code into the "Sync code" box
+   in the header and click **Set code**. That code is now yours; type the
+   exact same code into the app on your other device (phone, laptop,
+   whatever) and it'll pick up the same have/need list.
+
+No Authentication setup, no authorized domains, no popups — that's the
+whole point of this version.
 
 This is well within Firebase's free "Spark" tier for a single person's use
 (Firestore's free tier alone is 50,000 reads and 20,000 writes *per day* —
@@ -119,12 +122,15 @@ Freak.
   `images.pokemontcg.io` requests are failing entirely, that free image
   host may be temporarily down; try again later. This doesn't affect
   filtering/tracking, only the pictures.
-- **"Sign in with Google" does nothing / popup closes immediately:** your
-  browser may be blocking the popup — allow popups for your GitHub Pages
-  domain and try again.
-- **Signed in but nothing syncs / "permission denied" in console:** double
+- **Set a code but nothing syncs / "permission denied" in console:** double
   check you pasted `firestore.rules` exactly and clicked Publish, and that
-  your GitHub Pages domain is in Authentication → Authorized domains.
+  `FIREBASE_ENABLED` is actually `true` in `js/firebase-config.js` (and that
+  you uploaded that change).
+- **Two devices show different data after both have a code set:** whichever
+  device sets the code *second* pulls down whatever's already saved under
+  that code (and overwrites its own local copy) — so set the code on your
+  "main" device first, check it looks right, then set the same code on
+  other devices.
 - **Lost your local progress somehow:** if you ever exported a backup,
   use **Import backup** — it merges into whatever's currently loaded
   rather than replacing it outright.

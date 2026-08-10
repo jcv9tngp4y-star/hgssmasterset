@@ -1,0 +1,26 @@
+rules_version = '2';
+
+// Paste this into: Firebase Console → Firestore Database → Rules → Publish.
+//
+// Model: no accounts, no sign-in. Each collection is identified by a short
+// code the person picks themselves (e.g. "adam"), stored as the document ID
+// under collections/{code}. Anyone who knows a code can read or write that
+// one document — there is no per-person authentication check here.
+//
+// This is intentionally simple and has NO real security: it only protects
+// against someone randomly guessing a code, not against someone who was
+// told it (or a determined attacker enumerating codes). That's fine for a
+// personal hobby tracker shared with people you trust with the code — it is
+// not appropriate for anything sensitive. If that ever matters, this needs
+// real authentication instead (a bigger change).
+//
+// It still only allows access to documents under /collections/{code} —
+// nothing else in your Firestore database is exposed by this rule.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /collections/{code} {
+      allow read, write: if true;
+    }
+  }
+}

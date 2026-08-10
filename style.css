@@ -60,6 +60,15 @@ h1 { font-size: 1.15rem; margin: 0; font-weight: 600; }
 }
 .auth-area { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .sync-status { font-size: 0.75rem; color: var(--text-dim); }
+.sync-code-input {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 7px 10px;
+  border-radius: var(--radius);
+  font-size: 0.8rem;
+  width: 140px;
+}
 
 .progress-row {
   display: flex;

@@ -1,21 +1,20 @@
 import {
   initFirebaseSync,
   isEnabled as firebaseEnabled,
-  signIn,
-  signOutUser,
   fetchRemoteOwned,
   pushRemoteOwned,
 } from "./firebase-sync.js";
 
 const LOCAL_KEY = "hgss_owned_v1";
-const TOTAL_EXPECTED = 229;
+const CODE_KEY = "hgss_sync_code";
 
 /** @type {Array<Object>} */
 let allRows = [];
 /** @type {Record<string, boolean>} */
 let ownedMap = {};
 let activeTypes = new Set();
-let signedInUser = null;
+/** @type {string} empty string = not syncing, local-only */
+let syncCode = "";
 
 const el = (id) => document.getElementById(id);
 
@@ -24,6 +23,8 @@ const el = (id) => document.getElementById(id);
 // ---------------------------------------------------------------------------
 async function boot() {
   ownedMap = loadLocalOwned();
+  syncCode = localStorage.getItem(CODE_KEY) || "";
+  el("syncCodeInput").value = syncCode;
 
   const res = await fetch("app_data.json");
   allRows = await res.json();
@@ -33,8 +34,10 @@ async function boot() {
   wireControls();
   render();
 
-  await initFirebaseSync({ onAuthChange: handleAuthChange });
+  await initFirebaseSync();
   updateSyncStatusUI();
+
+  if (syncCode) await syncFromRemote(syncCode);
 }
 
 function loadLocalOwned() {
@@ -51,48 +54,46 @@ function saveLocalOwned() {
 }
 
 // ---------------------------------------------------------------------------
-// Firebase auth / sync
+// Code-based Firebase sync (no accounts, no sign-in — see firebase-sync.js)
 // ---------------------------------------------------------------------------
-async function handleAuthChange(user) {
-  signedInUser = user;
-  updateSyncStatusUI();
-
-  if (!user) return;
-
-  const remote = await fetchRemoteOwned();
+async function syncFromRemote(code) {
+  const remote = await fetchRemoteOwned(code);
   if (remote) {
-    // Remote is treated as the source of truth once you're signed in on a
-    // device — simplest model for a single-person tracker. If you want to
-    // seed the cloud from THIS device's local data instead the first time,
-    // use Export locally, sign in, then Import.
+    // Remote is treated as the source of truth once a code is set on a
+    // device — simplest model. If this device has local data you want to
+    // keep instead, use Export first, set the code, then Import.
     ownedMap = remote;
     saveLocalOwned();
     render();
   } else {
-    // First time this account has ever synced — push whatever is local.
-    await pushRemoteOwned(ownedMap);
+    // Nobody has ever synced under this code yet — push whatever is local
+    // so the code has something in it from now on.
+    await pushRemoteOwned(code, ownedMap);
   }
+}
+
+function setSyncCode(code) {
+  syncCode = code.trim();
+  if (syncCode) {
+    localStorage.setItem(CODE_KEY, syncCode);
+  } else {
+    localStorage.removeItem(CODE_KEY);
+  }
+  updateSyncStatusUI();
+  if (syncCode) syncFromRemote(syncCode);
 }
 
 function updateSyncStatusUI() {
   const status = el("syncStatus");
-  const inBtn = el("signInBtn");
-  const outBtn = el("signOutBtn");
 
   if (!firebaseEnabled()) {
     status.textContent = "Cloud sync not configured — saving to this device only";
-    inBtn.classList.remove("hidden");
-    outBtn.classList.add("hidden");
     return;
   }
-  if (signedInUser) {
-    status.textContent = `Synced as ${signedInUser.displayName || signedInUser.email}`;
-    inBtn.classList.add("hidden");
-    outBtn.classList.remove("hidden");
+  if (syncCode) {
+    status.textContent = `Syncing under code "${syncCode}"`;
   } else {
-    status.textContent = "Not signed in — saving to this device only";
-    inBtn.classList.remove("hidden");
-    outBtn.classList.add("hidden");
+    status.textContent = "No sync code set — saving to this device only";
   }
 }
 
@@ -118,7 +119,7 @@ function isOwned(row) {
 function setOwned(row, value) {
   ownedMap[String(row.binder_number)] = value;
   saveLocalOwned();
-  if (signedInUser) pushRemoteOwned(ownedMap);
+  if (syncCode) pushRemoteOwned(syncCode, ownedMap);
 }
 
 // ---------------------------------------------------------------------------
@@ -347,7 +348,7 @@ function importBackup(file) {
       const incoming = parsed.owned || parsed; // accept either wrapped or raw map
       ownedMap = { ...ownedMap, ...incoming };
       saveLocalOwned();
-      if (signedInUser) pushRemoteOwned(ownedMap);
+      if (syncCode) pushRemoteOwned(syncCode, ownedMap);
       render();
       alert("Backup imported.");
     } catch (e) {
@@ -381,8 +382,12 @@ function wireControls() {
     render();
   });
 
-  el("signInBtn").addEventListener("click", signIn);
-  el("signOutBtn").addEventListener("click", signOutUser);
+  el("syncCodeBtn").addEventListener("click", () => {
+    setSyncCode(el("syncCodeInput").value);
+  });
+  el("syncCodeInput").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") setSyncCode(el("syncCodeInput").value);
+  });
 
   el("exportBtn").addEventListener("click", exportBackup);
   el("importInput").addEventListener("change", (e) => {

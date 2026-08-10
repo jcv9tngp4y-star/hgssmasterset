@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HGSS Collection Tracker</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="app-header">
+  <div class="header-row">
+    <h1>HeartGold &amp; SoulSilver Tracker</h1>
+    <div class="auth-area">
+      <span id="syncStatus" class="sync-status">Not signed in — saving to this device only</span>
+      <button id="signInBtn" class="btn btn-google">Sign in with Google</button>
+      <button id="signOutBtn" class="btn btn-ghost hidden">Sign out</button>
+    </div>
+  </div>
+  <div class="progress-row">
+    <div class="progress-bar"><div id="progressFill" class="progress-fill"></div></div>
+    <span id="progressText">0 / 229 collected</span>
+  </div>
+</header>
+
+<section class="filter-bar" id="filterBar">
+  <div class="filter-group">
+    <input type="search" id="searchInput" placeholder="Search by name or card #…" autocomplete="off">
+  </div>
+
+  <div class="filter-group">
+    <label for="statusFilter">Status</label>
+    <select id="statusFilter">
+      <option value="all">All</option>
+      <option value="have">Have</option>
+      <option value="need">Need</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <label for="variantFilter">Variant</label>
+    <select id="variantFilter">
+      <option value="all">All</option>
+      <option value="Non-Holo">Non-Holo</option>
+      <option value="Holo">Holo</option>
+      <option value="Reverse Holo">Reverse Holo</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <label for="rarityFilter">Rarity</label>
+    <select id="rarityFilter">
+      <option value="all">All</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <label for="alphaFilter">Alpha half</label>
+    <select id="alphaFilter">
+      <option value="all">A–Z (all)</option>
+      <option value="AM">A–M</option>
+      <option value="NZ">N–Z</option>
+    </select>
+  </div>
+
+  <div class="filter-group">
+    <label for="sortSelect">Sort by</label>
+    <select id="sortSelect">
+      <option value="binder">Binder order (#)</option>
+      <option value="type-alpha">Type, then A–Z</option>
+      <option value="alpha">A–Z</option>
+      <option value="cardnum">Card number</option>
+    </select>
+  </div>
+
+  <div class="filter-group filter-group-actions">
+    <button id="clearFiltersBtn" class="btn btn-ghost">Clear filters</button>
+  </div>
+</section>
+
+<section class="type-chip-bar" id="typeChipBar" aria-label="Filter by type">
+  <!-- type chips injected by JS -->
+</section>
+
+<main>
+  <div id="resultsMeta" class="results-meta"></div>
+  <div id="cardGrid" class="card-grid"></div>
+  <p id="emptyState" class="empty-state hidden">No cards match these filters.</p>
+</main>
+
+<footer class="app-footer">
+  <div class="footer-actions">
+    <button id="exportBtn" class="btn btn-ghost">Export backup (.json)</button>
+    <label class="btn btn-ghost file-label">
+      Import backup
+      <input type="file" id="importInput" accept="application/json" class="hidden">
+    </label>
+  </div>
+  <p class="footer-note">
+    Card data &amp; images via the
+    <a href="https://pokemontcg.io" target="_blank" rel="noopener">Pokémon TCG API</a>.
+    This is an unofficial personal collection tool — not affiliated with The Pokémon Company, Nintendo, or Creatures Inc.
+  </p>
+</footer>
+
+<!-- Lightbox for full-size card image -->
+<div id="lightbox" class="lightbox hidden">
+  <div class="lightbox-inner">
+    <button id="lightboxClose" class="btn btn-ghost lightbox-close">&times;</button>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+</div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

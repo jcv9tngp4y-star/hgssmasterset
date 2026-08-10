@@ -1,0 +1,2897 @@
+[
+ {
+  "card_number": 1,
+  "name": "Arcanine",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 1,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/1_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/1.png"
+ },
+ {
+  "card_number": 1,
+  "name": "Arcanine",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 2,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/1_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/1.png"
+ },
+ {
+  "card_number": 2,
+  "name": "Azumarill",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 3,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/2_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/2.png"
+ },
+ {
+  "card_number": 2,
+  "name": "Azumarill",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 4,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/2_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/2.png"
+ },
+ {
+  "card_number": 3,
+  "name": "Clefable",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 5,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/3_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/3.png"
+ },
+ {
+  "card_number": 3,
+  "name": "Clefable",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 6,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/3_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/3.png"
+ },
+ {
+  "card_number": 4,
+  "name": "Gyarados",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 7,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/4_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/4.png"
+ },
+ {
+  "card_number": 4,
+  "name": "Gyarados",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 8,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/4_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/4.png"
+ },
+ {
+  "card_number": 5,
+  "name": "Hitmontop",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 9,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/5_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/5.png"
+ },
+ {
+  "card_number": 5,
+  "name": "Hitmontop",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 10,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/5_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/5.png"
+ },
+ {
+  "card_number": 6,
+  "name": "Jumpluff",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 11,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/6_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/6.png"
+ },
+ {
+  "card_number": 6,
+  "name": "Jumpluff",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 12,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/6_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/6.png"
+ },
+ {
+  "card_number": 7,
+  "name": "Ninetales",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 13,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/7_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/7.png"
+ },
+ {
+  "card_number": 7,
+  "name": "Ninetales",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 14,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/7_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/7.png"
+ },
+ {
+  "card_number": 8,
+  "name": "Noctowl",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 15,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/8_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/8.png"
+ },
+ {
+  "card_number": 8,
+  "name": "Noctowl",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 16,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/8_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/8.png"
+ },
+ {
+  "card_number": 9,
+  "name": "Quagsire",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 17,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/9_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/9.png"
+ },
+ {
+  "card_number": 9,
+  "name": "Quagsire",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 18,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/9_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/9.png"
+ },
+ {
+  "card_number": 10,
+  "name": "Raichu",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 19,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/10_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/10.png"
+ },
+ {
+  "card_number": 10,
+  "name": "Raichu",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 20,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/10_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/10.png"
+ },
+ {
+  "card_number": 11,
+  "name": "Shuckle",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 21,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/11_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/11.png"
+ },
+ {
+  "card_number": 11,
+  "name": "Shuckle",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 22,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/11_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/11.png"
+ },
+ {
+  "card_number": 12,
+  "name": "Slowking",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 23,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/12_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/12.png"
+ },
+ {
+  "card_number": 12,
+  "name": "Slowking",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 24,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/12_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/12.png"
+ },
+ {
+  "card_number": 13,
+  "name": "Wobbuffet",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 25,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/13_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/13.png"
+ },
+ {
+  "card_number": 13,
+  "name": "Wobbuffet",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 26,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/13_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/13.png"
+ },
+ {
+  "card_number": 14,
+  "name": "Ampharos",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 27,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/14_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/14.png"
+ },
+ {
+  "card_number": 14,
+  "name": "Ampharos",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 28,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/14_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/14.png"
+ },
+ {
+  "card_number": 15,
+  "name": "Ariados",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 29,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/15_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/15.png"
+ },
+ {
+  "card_number": 15,
+  "name": "Ariados",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 30,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/15_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/15.png"
+ },
+ {
+  "card_number": 16,
+  "name": "Butterfree",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 31,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/16_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/16.png"
+ },
+ {
+  "card_number": 16,
+  "name": "Butterfree",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 32,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/16_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/16.png"
+ },
+ {
+  "card_number": 17,
+  "name": "Cleffa",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 33,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/17_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/17.png"
+ },
+ {
+  "card_number": 17,
+  "name": "Cleffa",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 34,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/17_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/17.png"
+ },
+ {
+  "card_number": 18,
+  "name": "Exeggutor",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 35,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/18_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/18.png"
+ },
+ {
+  "card_number": 18,
+  "name": "Exeggutor",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 36,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/18_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/18.png"
+ },
+ {
+  "card_number": 19,
+  "name": "Farfetch'd",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 37,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/19_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/19.png"
+ },
+ {
+  "card_number": 19,
+  "name": "Farfetch'd",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 38,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/19_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/19.png"
+ },
+ {
+  "card_number": 20,
+  "name": "Feraligatr",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 39,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/20_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/20.png"
+ },
+ {
+  "card_number": 20,
+  "name": "Feraligatr",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 40,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/20_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/20.png"
+ },
+ {
+  "card_number": 21,
+  "name": "Furret",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 41,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/21_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/21.png"
+ },
+ {
+  "card_number": 21,
+  "name": "Furret",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 42,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/21_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/21.png"
+ },
+ {
+  "card_number": 22,
+  "name": "Granbull",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 43,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/22_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/22.png"
+ },
+ {
+  "card_number": 22,
+  "name": "Granbull",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 44,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/22_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/22.png"
+ },
+ {
+  "card_number": 23,
+  "name": "Hypno",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 45,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/23_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/23.png"
+ },
+ {
+  "card_number": 23,
+  "name": "Hypno",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 46,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/23_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/23.png"
+ },
+ {
+  "card_number": 24,
+  "name": "Lapras",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 47,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/24_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/24.png"
+ },
+ {
+  "card_number": 24,
+  "name": "Lapras",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 48,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/24_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/24.png"
+ },
+ {
+  "card_number": 25,
+  "name": "Ledian",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 49,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/25_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/25.png"
+ },
+ {
+  "card_number": 25,
+  "name": "Ledian",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 50,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/25_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/25.png"
+ },
+ {
+  "card_number": 26,
+  "name": "Meganium",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 51,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/26_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/26.png"
+ },
+ {
+  "card_number": 26,
+  "name": "Meganium",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 52,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/26_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/26.png"
+ },
+ {
+  "card_number": 27,
+  "name": "Persian",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 53,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/27_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/27.png"
+ },
+ {
+  "card_number": 27,
+  "name": "Persian",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 54,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/27_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/27.png"
+ },
+ {
+  "card_number": 28,
+  "name": "Pichu",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 55,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/28_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/28.png"
+ },
+ {
+  "card_number": 28,
+  "name": "Pichu",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 56,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/28_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/28.png"
+ },
+ {
+  "card_number": 29,
+  "name": "Sandslash",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 57,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/29_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/29.png"
+ },
+ {
+  "card_number": 29,
+  "name": "Sandslash",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 58,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/29_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/29.png"
+ },
+ {
+  "card_number": 30,
+  "name": "Smoochum",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 59,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/30_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/30.png"
+ },
+ {
+  "card_number": 30,
+  "name": "Smoochum",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 60,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/30_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/30.png"
+ },
+ {
+  "card_number": 31,
+  "name": "Sunflora",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 61,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/31_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/31.png"
+ },
+ {
+  "card_number": 31,
+  "name": "Sunflora",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 62,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/31_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/31.png"
+ },
+ {
+  "card_number": 32,
+  "name": "Typhlosion",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 63,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/32_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/32.png"
+ },
+ {
+  "card_number": 32,
+  "name": "Typhlosion",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 64,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/32_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/32.png"
+ },
+ {
+  "card_number": 33,
+  "name": "Tyrogue",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 65,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/33_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/33.png"
+ },
+ {
+  "card_number": 33,
+  "name": "Tyrogue",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 66,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/33_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/33.png"
+ },
+ {
+  "card_number": 34,
+  "name": "Weezing",
+  "rarity": "Rare",
+  "variant": "Non-Holo",
+  "binder_number": 67,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/34_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/34.png"
+ },
+ {
+  "card_number": 34,
+  "name": "Weezing",
+  "rarity": "Rare",
+  "variant": "Reverse Holo",
+  "binder_number": 68,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/34_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/34.png"
+ },
+ {
+  "card_number": 35,
+  "name": "Bayleef",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 69,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/35_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/35.png"
+ },
+ {
+  "card_number": 35,
+  "name": "Bayleef",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 70,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/35_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/35.png"
+ },
+ {
+  "card_number": 36,
+  "name": "Blissey",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 71,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/36_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/36.png"
+ },
+ {
+  "card_number": 36,
+  "name": "Blissey",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 72,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/36_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/36.png"
+ },
+ {
+  "card_number": 37,
+  "name": "Corsola",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 73,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/37_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/37.png"
+ },
+ {
+  "card_number": 37,
+  "name": "Corsola",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 74,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/37_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/37.png"
+ },
+ {
+  "card_number": 38,
+  "name": "Croconaw",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 75,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/38_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/38.png"
+ },
+ {
+  "card_number": 38,
+  "name": "Croconaw",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 76,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/38_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/38.png"
+ },
+ {
+  "card_number": 39,
+  "name": "Delibird",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 77,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/39_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/39.png"
+ },
+ {
+  "card_number": 39,
+  "name": "Delibird",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 78,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/39_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/39.png"
+ },
+ {
+  "card_number": 40,
+  "name": "Donphan",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 79,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/40_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/40.png"
+ },
+ {
+  "card_number": 40,
+  "name": "Donphan",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 80,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/40_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/40.png"
+ },
+ {
+  "card_number": 41,
+  "name": "Dunsparce",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 81,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/41_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/41.png"
+ },
+ {
+  "card_number": 41,
+  "name": "Dunsparce",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 82,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/41_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/41.png"
+ },
+ {
+  "card_number": 42,
+  "name": "Flaaffy",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 83,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/42_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/42.png"
+ },
+ {
+  "card_number": 42,
+  "name": "Flaaffy",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 84,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/42_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/42.png"
+ },
+ {
+  "card_number": 43,
+  "name": "Heracross",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 85,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/43_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/43.png"
+ },
+ {
+  "card_number": 43,
+  "name": "Heracross",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 86,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/43_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/43.png"
+ },
+ {
+  "card_number": 44,
+  "name": "Igglybuff",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 87,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/44_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/44.png"
+ },
+ {
+  "card_number": 44,
+  "name": "Igglybuff",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 88,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/44_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/44.png"
+ },
+ {
+  "card_number": 45,
+  "name": "Mantine",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 89,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/45_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/45.png"
+ },
+ {
+  "card_number": 45,
+  "name": "Mantine",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 90,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/45_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/45.png"
+ },
+ {
+  "card_number": 46,
+  "name": "Metapod",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 91,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/46_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/46.png"
+ },
+ {
+  "card_number": 46,
+  "name": "Metapod",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 92,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/46_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/46.png"
+ },
+ {
+  "card_number": 47,
+  "name": "Miltank",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 93,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/47_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/47.png"
+ },
+ {
+  "card_number": 47,
+  "name": "Miltank",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 94,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/47_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/47.png"
+ },
+ {
+  "card_number": 48,
+  "name": "Parasect",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 95,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/48_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/48.png"
+ },
+ {
+  "card_number": 48,
+  "name": "Parasect",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 96,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/48_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/48.png"
+ },
+ {
+  "card_number": 49,
+  "name": "Quilava",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 97,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/49_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/49.png"
+ },
+ {
+  "card_number": 49,
+  "name": "Quilava",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 98,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/49_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/49.png"
+ },
+ {
+  "card_number": 50,
+  "name": "Qwilfish",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 99,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/50_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/50.png"
+ },
+ {
+  "card_number": 50,
+  "name": "Qwilfish",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 100,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/50_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/50.png"
+ },
+ {
+  "card_number": 51,
+  "name": "Skiploom",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 101,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/51_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/51.png"
+ },
+ {
+  "card_number": 51,
+  "name": "Skiploom",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 102,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/51_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/51.png"
+ },
+ {
+  "card_number": 52,
+  "name": "Slowbro",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 103,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/52_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/52.png"
+ },
+ {
+  "card_number": 52,
+  "name": "Slowbro",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 104,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/52_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/52.png"
+ },
+ {
+  "card_number": 53,
+  "name": "Starmie",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 105,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/53_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/53.png"
+ },
+ {
+  "card_number": 53,
+  "name": "Starmie",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 106,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/53_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/53.png"
+ },
+ {
+  "card_number": 54,
+  "name": "Unown",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 107,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/54_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/54.png"
+ },
+ {
+  "card_number": 54,
+  "name": "Unown",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 108,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/54_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/54.png"
+ },
+ {
+  "card_number": 55,
+  "name": "Unown",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 109,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/55_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/55.png"
+ },
+ {
+  "card_number": 55,
+  "name": "Unown",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 110,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/55_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/55.png"
+ },
+ {
+  "card_number": 56,
+  "name": "Wigglytuff",
+  "rarity": "Uncommon",
+  "variant": "Non-Holo",
+  "binder_number": 111,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/56_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/56.png"
+ },
+ {
+  "card_number": 56,
+  "name": "Wigglytuff",
+  "rarity": "Uncommon",
+  "variant": "Reverse Holo",
+  "binder_number": 112,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/56_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/56.png"
+ },
+ {
+  "card_number": 57,
+  "name": "Caterpie",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 113,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/57_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/57.png"
+ },
+ {
+  "card_number": 57,
+  "name": "Caterpie",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 114,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/57_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/57.png"
+ },
+ {
+  "card_number": 58,
+  "name": "Chansey",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 115,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/58_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/58.png"
+ },
+ {
+  "card_number": 58,
+  "name": "Chansey",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 116,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/58_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/58.png"
+ },
+ {
+  "card_number": 59,
+  "name": "Chikorita",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 117,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/59_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/59.png"
+ },
+ {
+  "card_number": 59,
+  "name": "Chikorita",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 118,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/59_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/59.png"
+ },
+ {
+  "card_number": 60,
+  "name": "Clefairy",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 119,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/60_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/60.png"
+ },
+ {
+  "card_number": 60,
+  "name": "Clefairy",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 120,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/60_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/60.png"
+ },
+ {
+  "card_number": 61,
+  "name": "Cyndaquil",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 121,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/61_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/61.png"
+ },
+ {
+  "card_number": 61,
+  "name": "Cyndaquil",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 122,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/61_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/61.png"
+ },
+ {
+  "card_number": 62,
+  "name": "Drowzee",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 123,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/62_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/62.png"
+ },
+ {
+  "card_number": 62,
+  "name": "Drowzee",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 124,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/62_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/62.png"
+ },
+ {
+  "card_number": 63,
+  "name": "Exeggcute",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 125,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/63_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/63.png"
+ },
+ {
+  "card_number": 63,
+  "name": "Exeggcute",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 126,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/63_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/63.png"
+ },
+ {
+  "card_number": 64,
+  "name": "Girafarig",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 127,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/64_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/64.png"
+ },
+ {
+  "card_number": 64,
+  "name": "Girafarig",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 128,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/64_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/64.png"
+ },
+ {
+  "card_number": 65,
+  "name": "Growlithe",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 129,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/65_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/65.png"
+ },
+ {
+  "card_number": 65,
+  "name": "Growlithe",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 130,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/65_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/65.png"
+ },
+ {
+  "card_number": 66,
+  "name": "Hoothoot",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 131,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/66_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/66.png"
+ },
+ {
+  "card_number": 66,
+  "name": "Hoothoot",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 132,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/66_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/66.png"
+ },
+ {
+  "card_number": 67,
+  "name": "Hoppip",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 133,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/67_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/67.png"
+ },
+ {
+  "card_number": 67,
+  "name": "Hoppip",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 134,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/67_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/67.png"
+ },
+ {
+  "card_number": 68,
+  "name": "Jigglypuff",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 135,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/68_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/68.png"
+ },
+ {
+  "card_number": 68,
+  "name": "Jigglypuff",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 136,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/68_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/68.png"
+ },
+ {
+  "card_number": 69,
+  "name": "Jynx",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 137,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/69_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/69.png"
+ },
+ {
+  "card_number": 69,
+  "name": "Jynx",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 138,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/69_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/69.png"
+ },
+ {
+  "card_number": 70,
+  "name": "Koffing",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 139,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/70_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/70.png"
+ },
+ {
+  "card_number": 70,
+  "name": "Koffing",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 140,
+  "types": [
+   "Psychic"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/70_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/70.png"
+ },
+ {
+  "card_number": 71,
+  "name": "Ledyba",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 141,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/71_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/71.png"
+ },
+ {
+  "card_number": 71,
+  "name": "Ledyba",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 142,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/71_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/71.png"
+ },
+ {
+  "card_number": 72,
+  "name": "Magikarp",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 143,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/72_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/72.png"
+ },
+ {
+  "card_number": 72,
+  "name": "Magikarp",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 144,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/72_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/72.png"
+ },
+ {
+  "card_number": 73,
+  "name": "Mareep",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 145,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/73_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/73.png"
+ },
+ {
+  "card_number": 73,
+  "name": "Mareep",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 146,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/73_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/73.png"
+ },
+ {
+  "card_number": 74,
+  "name": "Marill",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 147,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/74_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/74.png"
+ },
+ {
+  "card_number": 74,
+  "name": "Marill",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 148,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/74_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/74.png"
+ },
+ {
+  "card_number": 75,
+  "name": "Meowth",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 149,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/75_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/75.png"
+ },
+ {
+  "card_number": 75,
+  "name": "Meowth",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 150,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/75_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/75.png"
+ },
+ {
+  "card_number": 76,
+  "name": "Paras",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 151,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/76_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/76.png"
+ },
+ {
+  "card_number": 76,
+  "name": "Paras",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 152,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/76_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/76.png"
+ },
+ {
+  "card_number": 77,
+  "name": "Phanpy",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 153,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/77_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/77.png"
+ },
+ {
+  "card_number": 77,
+  "name": "Phanpy",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 154,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/77_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/77.png"
+ },
+ {
+  "card_number": 78,
+  "name": "Pikachu",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 155,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/78_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/78.png"
+ },
+ {
+  "card_number": 78,
+  "name": "Pikachu",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 156,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/78_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/78.png"
+ },
+ {
+  "card_number": 79,
+  "name": "Sandshrew",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 157,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/79_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/79.png"
+ },
+ {
+  "card_number": 79,
+  "name": "Sandshrew",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 158,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/79_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/79.png"
+ },
+ {
+  "card_number": 80,
+  "name": "Sentret",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 159,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/80_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/80.png"
+ },
+ {
+  "card_number": 80,
+  "name": "Sentret",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 160,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/80_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/80.png"
+ },
+ {
+  "card_number": 81,
+  "name": "Slowpoke",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 161,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/81_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/81.png"
+ },
+ {
+  "card_number": 81,
+  "name": "Slowpoke",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 162,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/81_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/81.png"
+ },
+ {
+  "card_number": 82,
+  "name": "Snubbull",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 163,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/82_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/82.png"
+ },
+ {
+  "card_number": 82,
+  "name": "Snubbull",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 164,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/82_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/82.png"
+ },
+ {
+  "card_number": 83,
+  "name": "Spinarak",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 165,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/83_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/83.png"
+ },
+ {
+  "card_number": 83,
+  "name": "Spinarak",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 166,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/83_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/83.png"
+ },
+ {
+  "card_number": 84,
+  "name": "Staryu",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 167,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/84_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/84.png"
+ },
+ {
+  "card_number": 84,
+  "name": "Staryu",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 168,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/84_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/84.png"
+ },
+ {
+  "card_number": 85,
+  "name": "Sunkern",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 169,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/85_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/85.png"
+ },
+ {
+  "card_number": 85,
+  "name": "Sunkern",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 170,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/85_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/85.png"
+ },
+ {
+  "card_number": 86,
+  "name": "Totodile",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 171,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/86_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/86.png"
+ },
+ {
+  "card_number": 86,
+  "name": "Totodile",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 172,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/86_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/86.png"
+ },
+ {
+  "card_number": 87,
+  "name": "Vulpix",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 173,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/87_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/87.png"
+ },
+ {
+  "card_number": 87,
+  "name": "Vulpix",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 174,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/87_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/87.png"
+ },
+ {
+  "card_number": 88,
+  "name": "Wooper",
+  "rarity": "Common",
+  "variant": "Non-Holo",
+  "binder_number": 175,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/88_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/88.png"
+ },
+ {
+  "card_number": 88,
+  "name": "Wooper",
+  "rarity": "Common",
+  "variant": "Reverse Holo",
+  "binder_number": 176,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/88_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/88.png"
+ },
+ {
+  "card_number": 89,
+  "name": "Bill",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 177,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/89_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/89.png"
+ },
+ {
+  "card_number": 89,
+  "name": "Bill",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 178,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/89_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/89.png"
+ },
+ {
+  "card_number": 90,
+  "name": "Copycat",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 179,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/90_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/90.png"
+ },
+ {
+  "card_number": 90,
+  "name": "Copycat",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 180,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/90_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/90.png"
+ },
+ {
+  "card_number": 91,
+  "name": "Energy Switch",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 181,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/91_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/91.png"
+ },
+ {
+  "card_number": 91,
+  "name": "Energy Switch",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 182,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/91_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/91.png"
+ },
+ {
+  "card_number": 92,
+  "name": "Fisherman",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 183,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/92_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/92.png"
+ },
+ {
+  "card_number": 92,
+  "name": "Fisherman",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 184,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/92_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/92.png"
+ },
+ {
+  "card_number": 93,
+  "name": "Full Heal",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 185,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/93_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/93.png"
+ },
+ {
+  "card_number": 93,
+  "name": "Full Heal",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 186,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/93_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/93.png"
+ },
+ {
+  "card_number": 94,
+  "name": "Moomoo Milk",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 187,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/94_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/94.png"
+ },
+ {
+  "card_number": 94,
+  "name": "Moomoo Milk",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 188,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/94_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/94.png"
+ },
+ {
+  "card_number": 95,
+  "name": "Poké Ball",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 189,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/95_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/95.png"
+ },
+ {
+  "card_number": 95,
+  "name": "Poké Ball",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 190,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/95_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/95.png"
+ },
+ {
+  "card_number": 96,
+  "name": "Pokégear 3.0",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 191,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/96_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/96.png"
+ },
+ {
+  "card_number": 96,
+  "name": "Pokégear 3.0",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 192,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/96_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/96.png"
+ },
+ {
+  "card_number": 97,
+  "name": "Pokémon Collector",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 193,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/97_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/97.png"
+ },
+ {
+  "card_number": 97,
+  "name": "Pokémon Collector",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 194,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/97_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/97.png"
+ },
+ {
+  "card_number": 98,
+  "name": "Pokémon Communication",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 195,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/98_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/98.png"
+ },
+ {
+  "card_number": 98,
+  "name": "Pokémon Communication",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 196,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/98_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/98.png"
+ },
+ {
+  "card_number": 99,
+  "name": "Pokémon Reversal",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 197,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/99_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/99.png"
+ },
+ {
+  "card_number": 99,
+  "name": "Pokémon Reversal",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 198,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/99_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/99.png"
+ },
+ {
+  "card_number": 100,
+  "name": "Professor Elm's Training Method",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 199,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/100_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/100.png"
+ },
+ {
+  "card_number": 100,
+  "name": "Professor Elm's Training Method",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 200,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/100_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/100.png"
+ },
+ {
+  "card_number": 101,
+  "name": "Professor Oak's New Theory",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 201,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/101_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/101.png"
+ },
+ {
+  "card_number": 101,
+  "name": "Professor Oak's New Theory",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 202,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/101_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/101.png"
+ },
+ {
+  "card_number": 102,
+  "name": "Switch",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Non-Holo",
+  "binder_number": 203,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/102_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/102.png"
+ },
+ {
+  "card_number": 102,
+  "name": "Switch",
+  "rarity": "Uncommon (Trainer)",
+  "variant": "Reverse Holo",
+  "binder_number": 204,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/102_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/102.png"
+ },
+ {
+  "card_number": 103,
+  "name": "Double Colorless Energy",
+  "rarity": "Uncommon (Special Energy)",
+  "variant": "Non-Holo",
+  "binder_number": 205,
+  "types": null,
+  "supertype": "Energy",
+  "image_large": "https://images.pokemontcg.io/hgss1/103_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/103.png"
+ },
+ {
+  "card_number": 103,
+  "name": "Double Colorless Energy",
+  "rarity": "Uncommon (Special Energy)",
+  "variant": "Reverse Holo",
+  "binder_number": 206,
+  "types": null,
+  "supertype": "Energy",
+  "image_large": "https://images.pokemontcg.io/hgss1/103_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/103.png"
+ },
+ {
+  "card_number": 104,
+  "name": "Rainbow Energy",
+  "rarity": "Uncommon (Special Energy)",
+  "variant": "Non-Holo",
+  "binder_number": 207,
+  "types": null,
+  "supertype": "Energy",
+  "image_large": "https://images.pokemontcg.io/hgss1/104_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/104.png"
+ },
+ {
+  "card_number": 104,
+  "name": "Rainbow Energy",
+  "rarity": "Uncommon (Special Energy)",
+  "variant": "Reverse Holo",
+  "binder_number": 208,
+  "types": null,
+  "supertype": "Energy",
+  "image_large": "https://images.pokemontcg.io/hgss1/104_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/104.png"
+ },
+ {
+  "card_number": 105,
+  "name": "Ampharos Prime",
+  "rarity": "Rare Prime",
+  "variant": "Holo",
+  "binder_number": 209,
+  "types": [
+   "Lightning"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/105_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/105.png"
+ },
+ {
+  "card_number": 106,
+  "name": "Blissey Prime",
+  "rarity": "Rare Prime",
+  "variant": "Holo",
+  "binder_number": 210,
+  "types": [
+   "Colorless"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/106_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/106.png"
+ },
+ {
+  "card_number": 107,
+  "name": "Donphan Prime",
+  "rarity": "Rare Prime",
+  "variant": "Holo",
+  "binder_number": 211,
+  "types": [
+   "Fighting"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/107_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/107.png"
+ },
+ {
+  "card_number": 108,
+  "name": "Feraligatr Prime",
+  "rarity": "Rare Prime",
+  "variant": "Holo",
+  "binder_number": 212,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/108_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/108.png"
+ },
+ {
+  "card_number": 109,
+  "name": "Meganium Prime",
+  "rarity": "Rare Prime",
+  "variant": "Holo",
+  "binder_number": 213,
+  "types": [
+   "Grass"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/109_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/109.png"
+ },
+ {
+  "card_number": 110,
+  "name": "Typhlosion Prime",
+  "rarity": "Rare Prime",
+  "variant": "Holo",
+  "binder_number": 214,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/110_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/110.png"
+ },
+ {
+  "card_number": 111,
+  "name": "Ho-Oh LEGEND (top half)",
+  "rarity": "Rare Holo LEGEND",
+  "variant": "Holo",
+  "binder_number": 215,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/111_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/111.png"
+ },
+ {
+  "card_number": 112,
+  "name": "Ho-Oh LEGEND (bottom half)",
+  "rarity": "Rare Holo LEGEND",
+  "variant": "Holo",
+  "binder_number": 216,
+  "types": [
+   "Fire"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/112_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/112.png"
+ },
+ {
+  "card_number": 113,
+  "name": "Lugia LEGEND (top half)",
+  "rarity": "Rare Holo LEGEND",
+  "variant": "Holo",
+  "binder_number": 217,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/113_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/113.png"
+ },
+ {
+  "card_number": 114,
+  "name": "Lugia LEGEND (bottom half)",
+  "rarity": "Rare Holo LEGEND",
+  "variant": "Holo",
+  "binder_number": 218,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/114_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/114.png"
+ },
+ {
+  "card_number": 115,
+  "name": "Grass Energy",
+  "rarity": "Common (Basic Energy)",
+  "variant": "Non-Holo",
+  "binder_number": 219,
+  "types": null,
+  "supertype": "Energy",
+  "image_large": "https://images.pokemontcg.io/hgss1/115_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/115.png"
+ },
+ {
+  "card_number": 116,
+  "name": "Fire Energy",
+  "rarity": "Common (Basic Energy)",
+  "variant": "Non-Holo",
+  "binder_number": 220,
+  "types": null,
+  "supertype": "Energy",
+  "image_large": "https://images.pokemontcg.io/hgss1/116_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/116.png"
+ },
+ {
+  "card_number": 117,
+  "name": "Water Energy",
+  "rarity": "Common (Basic Energy)",
+  "variant": "Non-Holo",
+  "binder_number": 221,
+  "types": null,
+  "supertype": "Energy",
+  "image_large": "https://images.pokemontcg.io/hgss1/117_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/117.png"
+ },
+ {
+  "card_number": 118,
+  "name": "Lightning Energy",
+  "rarity": "Common (Basic Energy)",
+  "variant": "Non-Holo",
+  "binder_number": 222,
+  "types": null,
+  "supertype": "Energy",
+  "image_large": "https://images.pokemontcg.io/hgss1/118_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/118.png"
+ },
+ {
+  "card_number": 119,
+  "name": "Psychic Energy",
+  "rarity": "Common (Basic Energy)",
+  "variant": "Non-Holo",
+  "binder_number": 223,
+  "types": null,
+  "supertype": "Energy",
+  "image_large": "https://images.pokemontcg.io/hgss1/119_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/119.png"
+ },
+ {
+  "card_number": 120,
+  "name": "Fighting Energy",
+  "rarity": "Common (Basic Energy)",
+  "variant": "Non-Holo",
+  "binder_number": 224,
+  "types": null,
+  "supertype": "Energy",
+  "image_large": "https://images.pokemontcg.io/hgss1/120_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/120.png"
+ },
+ {
+  "card_number": 121,
+  "name": "Darkness Energy",
+  "rarity": "Common (Basic Energy)",
+  "variant": "Non-Holo",
+  "binder_number": 225,
+  "types": null,
+  "supertype": "Energy",
+  "image_large": "https://images.pokemontcg.io/hgss1/121_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/121.png"
+ },
+ {
+  "card_number": 122,
+  "name": "Metal Energy",
+  "rarity": "Common (Basic Energy)",
+  "variant": "Non-Holo",
+  "binder_number": 226,
+  "types": null,
+  "supertype": "Energy",
+  "image_large": "https://images.pokemontcg.io/hgss1/122_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/122.png"
+ },
+ {
+  "card_number": 123,
+  "name": "Gyarados (Red)",
+  "rarity": "Rare Holo",
+  "variant": "Holo",
+  "binder_number": 227,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/123_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/123.png"
+ },
+ {
+  "card_number": 123,
+  "name": "Gyarados (Red)",
+  "rarity": "Rare Holo",
+  "variant": "Reverse Holo",
+  "binder_number": 228,
+  "types": [
+   "Water"
+  ],
+  "supertype": "Pokémon",
+  "image_large": "https://images.pokemontcg.io/hgss1/123_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/123.png"
+ },
+ {
+  "card_number": "ONE/123",
+  "name": "Alph Lithograph",
+  "rarity": "Secret Rare",
+  "variant": "Holo",
+  "binder_number": 229,
+  "types": null,
+  "supertype": "Trainer",
+  "image_large": "https://images.pokemontcg.io/hgss1/ONE_hires.png",
+  "image_small": "https://images.pokemontcg.io/hgss1/ONE.png"
+ }
+]

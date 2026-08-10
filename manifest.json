@@ -1,0 +1,21 @@
+{
+  "name": "HeartGold & SoulSilver Tracker",
+  "short_name": "HGSS Tracker",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#12141c",
+  "theme_color": "#12141c",
+  "icons": [
+    {
+      "src": "https://images.pokemontcg.io/hgss1/symbol.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://images.pokemontcg.io/hgss1/symbol.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

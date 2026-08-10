@@ -25,7 +25,7 @@ const el = (id) => document.getElementById(id);
 async function boot() {
   ownedMap = loadLocalOwned();
 
-  const res = await fetch("data/app_data.json");
+  const res = await fetch("app_data.json");
   allRows = await res.json();
 
   buildRarityOptions();

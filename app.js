@@ -354,23 +354,43 @@ function wireControls() {
     if (e.target.id === "lightbox") closeLightbox();
   });
 
-  wireToggleControls();
+  wireBackToTop();
 }
 
 // ---------------------------------------------------------------------------
-// Manual show/hide for the whole filter panel — no longer tied to scroll
-// direction at all. The panel stays fixed in place; a small translucent
-// arrow button (always visible, top-left) collapses or reveals it on tap.
+// "Back to top" bubble — filters scroll away naturally with the page now.
+// The button only appears once the filter panel is fully scrolled out of
+// view, and clicking it jumps back to the top (which brings the filters
+// back into view and re-hides the button).
 // ---------------------------------------------------------------------------
-function wireToggleControls() {
+function wireBackToTop() {
   const topControls = el("topControls");
-  const toggleBtn = el("toggleControlsBtn");
+  const btn = el("backToTopBtn");
+  let ticking = false;
 
-  toggleBtn.addEventListener("click", () => {
-    const collapsed = topControls.classList.toggle("collapsed");
-    toggleBtn.classList.toggle("expanded", !collapsed);
-    toggleBtn.setAttribute("aria-expanded", String(!collapsed));
+  function updateVisibility() {
+    ticking = false;
+    // Fully hidden once the bottom edge of the filter panel has scrolled
+    // above the top of the viewport.
+    const outOfView = topControls.getBoundingClientRect().bottom <= 0;
+    btn.classList.toggle("hidden", !outOfView);
+  }
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(updateVisibility);
+    },
+    { passive: true }
+  );
+
+  btn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
   });
+
+  updateVisibility();
 }
 
 boot();

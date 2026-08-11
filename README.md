@@ -17,15 +17,14 @@ have/need list to follow you between your phone and your laptop.
 
 - Multi-filter: text search, Pokémon type (chips, multi-select), have/need
   status, variant (Non-Holo / Holo / Reverse Holo), rarity.
-- **Alpha-half filter (A–M / N–Z)** — for matching a shop's binder split
-  when they store one type across two binders by first letter.
 - Sort by binder order, card number, alphabetical, or **type then
   alphabetical** (groups by type first, A–Z within each type).
+- Filters scroll away naturally as you browse the grid; a small "back to
+  top" bubble (top-left) appears once they're fully off-screen so you can
+  jump straight back to them.
 - Card images (pulled live from the public Pokémon TCG API — nothing to
   host yourself), tap/click to zoom.
 - Progress bar (X / 229 collected).
-- Export/Import a JSON backup of your progress at any time — works with or
-  without Firebase, and is your safety net either way.
 - Optional: cross-device sync via a self-chosen "sync code" — no accounts,
   no sign-in. Type the same code on two devices and they share progress.
 
@@ -131,6 +130,7 @@ Freak.
   that code (and overwrites its own local copy) — so set the code on your
   "main" device first, check it looks right, then set the same code on
   other devices.
-- **Lost your local progress somehow:** if you ever exported a backup,
-  use **Import backup** — it merges into whatever's currently loaded
-  rather than replacing it outright.
+- **A brand-new code starts blank, always** — even if this device already
+  had a different code's data loaded. Codes never inherit from each other
+  automatically; that's intentional, so two people sharing a device never
+  accidentally end up sharing a collection.

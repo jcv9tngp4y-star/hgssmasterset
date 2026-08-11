@@ -41,22 +41,18 @@ h1 { font-size: 1.15rem; margin: 0; font-weight: 600; }
 .btn-google { background: #fff; color: #1f1f1f; border-color: #fff; font-weight: 600; }
 .file-label { display: inline-flex; align-items: center; }
 
-/* Top controls wrapper — fixed in place while scrolling; collapsed
-   entirely via the small arrow button instead of reacting to scroll. */
+/* Top controls wrapper — scrolls away naturally with the rest of the page,
+   no sticky/fixed positioning at all. */
 .top-controls {
-  position: sticky;
-  top: 0;
-  z-index: 25;
-}
-.top-controls.collapsed {
-  display: none;
+  position: static;
 }
 
-/* Small translucent toggle button, always visible top-left, regardless of
-   whether the filter panel is expanded or collapsed. */
-.toggle-controls-btn {
+/* Small translucent "back to top" bubble, top-left. Hidden by default
+   (see .hidden) and only shown by JS once the filter panel has fully
+   scrolled out of view. */
+.back-to-top-btn {
   position: fixed;
-  top: 10px;
+  top: calc(10px + env(safe-area-inset-top));
   left: 10px;
   z-index: 30;
   width: 34px;
@@ -73,17 +69,14 @@ h1 { font-size: 1.15rem; margin: 0; font-weight: 600; }
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: transform 0.25s ease;
-}
-.toggle-controls-btn.expanded {
-  transform: rotate(180deg);
+  transition: opacity 0.2s ease;
 }
 
 /* Header */
 .app-header {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
-  padding: 10px 14px;
+  padding: calc(10px + env(safe-area-inset-top)) 14px 10px;
 }
 .header-row {
   display: flex;

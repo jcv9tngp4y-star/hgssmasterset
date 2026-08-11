@@ -59,17 +59,22 @@ function saveLocalOwned() {
 async function syncFromRemote(code) {
   const remote = await fetchRemoteOwned(code);
   if (remote) {
-    // Remote is treated as the source of truth once a code is set on a
-    // device — simplest model. If this device has local data you want to
-    // keep instead, use Export first, set the code, then Import.
+    // This code already has saved data somewhere — that's the source of
+    // truth now, replacing whatever was showing on this device.
     ownedMap = remote;
-    saveLocalOwned();
-    render();
   } else {
-    // Nobody has ever synced under this code yet — push whatever is local
-    // so the code has something in it from now on.
+    // Nobody has ever synced under this code before — start it blank.
+    // Deliberately NOT seeding it from whatever's currently on this
+    // device: two different codes must never end up sharing data just
+    // because they happened to be typed into the same browser. If you
+    // want to carry existing local progress into a brand-new code, use
+    // Export first, set the code, then Import — that's an explicit,
+    // opt-in way to do it instead of it happening automatically.
+    ownedMap = {};
     await pushRemoteOwned(code, ownedMap);
   }
+  saveLocalOwned();
+  render();
 }
 
 function setSyncCode(code) {

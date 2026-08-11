@@ -326,44 +326,6 @@ function closeLightbox() {
 }
 
 // ---------------------------------------------------------------------------
-// Export / Import
-// ---------------------------------------------------------------------------
-function exportBackup() {
-  const payload = {
-    exportedAt: new Date().toISOString(),
-    schema: "hgss-tracker-v1",
-    owned: ownedMap,
-  };
-  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = `hgss-collection-backup-${new Date().toISOString().slice(0, 10)}.json`;
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  URL.revokeObjectURL(url);
-}
-
-function importBackup(file) {
-  const reader = new FileReader();
-  reader.onload = () => {
-    try {
-      const parsed = JSON.parse(reader.result);
-      const incoming = parsed.owned || parsed; // accept either wrapped or raw map
-      ownedMap = { ...ownedMap, ...incoming };
-      saveLocalOwned();
-      if (syncCode) pushRemoteOwned(syncCode, ownedMap);
-      render();
-      alert("Backup imported.");
-    } catch (e) {
-      alert("That file didn't look like a valid backup: " + e.message);
-    }
-  };
-  reader.readAsText(file);
-}
-
-// ---------------------------------------------------------------------------
 // Wiring
 // ---------------------------------------------------------------------------
 function wireControls() {
@@ -394,16 +356,40 @@ function wireControls() {
     if (e.key === "Enter") setSyncCode(el("syncCodeInput").value);
   });
 
-  el("exportBtn").addEventListener("click", exportBackup);
-  el("importInput").addEventListener("change", (e) => {
-    if (e.target.files[0]) importBackup(e.target.files[0]);
-    e.target.value = "";
-  });
-
   el("lightboxClose").addEventListener("click", closeLightbox);
   el("lightbox").addEventListener("click", (e) => {
     if (e.target.id === "lightbox") closeLightbox();
   });
+
+  wireScrollHide();
+}
+
+// ---------------------------------------------------------------------------
+// Hide the whole top controls block on scroll-down, snap it back instantly
+// on scroll-up — so browsing the grid gets more of the screen.
+// ---------------------------------------------------------------------------
+function wireScrollHide() {
+  const topControls = el("topControls");
+  let lastY = window.scrollY;
+  let ticking = false;
+
+  function update() {
+    const y = window.scrollY;
+    if (y > lastY && y > 90) {
+      topControls.classList.add("hide-on-scroll");
+    } else if (y < lastY) {
+      topControls.classList.remove("hide-on-scroll");
+    }
+    lastY = y;
+    ticking = false;
+  }
+
+  window.addEventListener("scroll", () => {
+    if (!ticking) {
+      requestAnimationFrame(update);
+      ticking = true;
+    }
+  }, { passive: true });
 }
 
 boot();

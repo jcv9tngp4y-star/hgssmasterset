@@ -17,79 +17,81 @@
 </head>
 <body>
 
-<header class="app-header">
-  <div class="header-row">
-    <h1>HeartGold &amp; SoulSilver Tracker</h1>
-    <div class="auth-area">
-      <span id="syncStatus" class="sync-status">Not synced — saving to this device only</span>
-      <input type="text" id="syncCodeInput" class="sync-code-input" placeholder="Sync code (optional)" autocomplete="off">
-      <button id="syncCodeBtn" class="btn btn-ghost">Set code</button>
+<div id="topControls" class="top-controls">
+  <header class="app-header">
+    <div class="header-row">
+      <h1>HeartGold &amp; SoulSilver Tracker</h1>
+      <div class="auth-area">
+        <span id="syncStatus" class="sync-status">Not synced — saving to this device only</span>
+        <input type="text" id="syncCodeInput" class="sync-code-input" placeholder="Sync code (optional)" autocomplete="off">
+        <button id="syncCodeBtn" class="btn btn-ghost">Set code</button>
+      </div>
     </div>
-  </div>
-  <div class="progress-row">
-    <div class="progress-bar"><div id="progressFill" class="progress-fill"></div></div>
-    <span id="progressText">0 / 229 collected</span>
-  </div>
-</header>
+    <div class="progress-row">
+      <div class="progress-bar"><div id="progressFill" class="progress-fill"></div></div>
+      <span id="progressText">0 / 229 collected</span>
+    </div>
+  </header>
 
-<section class="filter-bar" id="filterBar">
-  <div class="filter-group">
-    <input type="search" id="searchInput" placeholder="Search by name or card #…" autocomplete="off">
-  </div>
+  <section class="filter-bar" id="filterBar">
+    <div class="filter-group">
+      <input type="search" id="searchInput" placeholder="Search by name or card #…" autocomplete="off">
+    </div>
 
-  <div class="filter-group">
-    <label for="statusFilter">Status</label>
-    <select id="statusFilter">
-      <option value="all">All</option>
-      <option value="have">Have</option>
-      <option value="need">Need</option>
-    </select>
-  </div>
+    <div class="filter-group">
+      <label for="statusFilter">Status</label>
+      <select id="statusFilter">
+        <option value="all">All</option>
+        <option value="have">Have</option>
+        <option value="need">Need</option>
+      </select>
+    </div>
 
-  <div class="filter-group">
-    <label for="variantFilter">Variant</label>
-    <select id="variantFilter">
-      <option value="all">All</option>
-      <option value="Non-Holo">Non-Holo</option>
-      <option value="Holo">Holo</option>
-      <option value="Reverse Holo">Reverse Holo</option>
-    </select>
-  </div>
+    <div class="filter-group">
+      <label for="variantFilter">Variant</label>
+      <select id="variantFilter">
+        <option value="all">All</option>
+        <option value="Non-Holo">Non-Holo</option>
+        <option value="Holo">Holo</option>
+        <option value="Reverse Holo">Reverse Holo</option>
+      </select>
+    </div>
 
-  <div class="filter-group">
-    <label for="rarityFilter">Rarity</label>
-    <select id="rarityFilter">
-      <option value="all">All</option>
-    </select>
-  </div>
+    <div class="filter-group">
+      <label for="rarityFilter">Rarity</label>
+      <select id="rarityFilter">
+        <option value="all">All</option>
+      </select>
+    </div>
 
-  <div class="filter-group">
-    <label for="alphaFilter">Alpha half</label>
-    <select id="alphaFilter">
-      <option value="all">A–Z (all)</option>
-      <option value="AM">A–M</option>
-      <option value="NZ">N–Z</option>
-    </select>
-  </div>
+    <div class="filter-group">
+      <label for="alphaFilter">Alpha half</label>
+      <select id="alphaFilter">
+        <option value="all">A–Z (all)</option>
+        <option value="AM">A–M</option>
+        <option value="NZ">N–Z</option>
+      </select>
+    </div>
 
-  <div class="filter-group">
-    <label for="sortSelect">Sort by</label>
-    <select id="sortSelect">
-      <option value="binder">Binder order (#)</option>
-      <option value="type-alpha">Type, then A–Z</option>
-      <option value="alpha">A–Z</option>
-      <option value="cardnum">Card number</option>
-    </select>
-  </div>
+    <div class="filter-group">
+      <label for="sortSelect">Sort by</label>
+      <select id="sortSelect">
+        <option value="binder">Binder order (#)</option>
+        <option value="type-alpha">Type, then A–Z</option>
+        <option value="alpha">A–Z</option>
+        <option value="cardnum">Card number</option>
+      </select>
+    </div>
 
-  <div class="filter-group filter-group-actions">
-    <button id="clearFiltersBtn" class="btn btn-ghost">Clear filters</button>
-  </div>
-</section>
+    <div class="filter-group filter-group-actions">
+      <button id="clearFiltersBtn" class="btn btn-ghost">Clear filters</button>
+    </div>
+  </section>
 
-<section class="type-chip-bar" id="typeChipBar" aria-label="Filter by type">
-  <!-- type chips injected by JS -->
-</section>
+  <section class="type-chip-bar" id="typeChipBar" aria-label="Filter by type">
+    <!-- type chips injected by JS -->
+  </section>
+</div>
 
 <main>
   <div id="resultsMeta" class="results-meta"></div>
@@ -98,13 +100,6 @@
 </main>
 
 <footer class="app-footer">
-  <div class="footer-actions">
-    <button id="exportBtn" class="btn btn-ghost">Export backup (.json)</button>
-    <label class="btn btn-ghost file-label">
-      Import backup
-      <input type="file" id="importInput" accept="application/json" class="hidden">
-    </label>
-  </div>
   <p class="footer-note">
     Card data &amp; images via the
     <a href="https://pokemontcg.io" target="_blank" rel="noopener">Pokémon TCG API</a>.

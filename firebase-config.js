@@ -14,13 +14,12 @@
 // ---------------------------------------------------------------------------
 
 export const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyD59sZELzNM_Fc8O7S4mH1rj76hz2s8WMs",
+  authDomain: "hgss-collection.firebaseapp.com",
+  projectId: "hgss-collection",
+  storageBucket: "hgss-collection.firebasestorage.app",
+  messagingSenderId: "723676194",
+  appId: "1:723676194:web:f43e0e9a5fb5956006ee7b",
 };
 
-// Flip this to true only after you've pasted real values above.
-export const FIREBASE_ENABLED = false;
+export const FIREBASE_ENABLED = true;

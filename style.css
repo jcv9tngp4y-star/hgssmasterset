@@ -41,17 +41,42 @@ h1 { font-size: 1.15rem; margin: 0; font-weight: 600; }
 .btn-google { background: #fff; color: #1f1f1f; border-color: #fff; font-weight: 600; }
 .file-label { display: inline-flex; align-items: center; }
 
-/* Top controls wrapper — everything in here slides away together on
-   scroll-down and glides back on scroll-up (see app.js) */
+/* Top controls wrapper — fixed in place while scrolling; collapsed
+   entirely via the small arrow button instead of reacting to scroll. */
 .top-controls {
   position: sticky;
   top: 0;
   z-index: 25;
-  transform: translateY(0);
-  transition: transform 0.32s cubic-bezier(0.22, 1, 0.36, 1);
 }
-.top-controls.hide-on-scroll {
-  transform: translateY(-100%);
+.top-controls.collapsed {
+  display: none;
+}
+
+/* Small translucent toggle button, always visible top-left, regardless of
+   whether the filter panel is expanded or collapsed. */
+.toggle-controls-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 30;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: rgba(27, 30, 42, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: var(--text);
+  font-size: 1.1rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+.toggle-controls-btn.expanded {
+  transform: rotate(180deg);
 }
 
 /* Header */

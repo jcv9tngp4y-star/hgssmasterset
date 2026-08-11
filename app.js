@@ -168,7 +168,6 @@ function getFiltered() {
   const status = el("statusFilter").value;
   const variant = el("variantFilter").value;
   const rarity = el("rarityFilter").value;
-  const alpha = el("alphaFilter").value;
 
   return allRows.filter((row) => {
     if (search) {
@@ -180,11 +179,6 @@ function getFiltered() {
     if (variant !== "all" && row.variant !== variant) return false;
     if (rarity !== "all" && row.rarity !== rarity) return false;
     if (activeTypes.size > 0 && !activeTypes.has(groupType(row))) return false;
-    if (alpha !== "all") {
-      const first = (row.name[0] || "").toUpperCase();
-      if (alpha === "AM" && !(first >= "A" && first <= "M")) return false;
-      if (alpha === "NZ" && !(first >= "N" && first <= "Z")) return false;
-    }
     return true;
   });
 }
@@ -331,7 +325,7 @@ function closeLightbox() {
 function wireControls() {
   [
     "searchInput", "statusFilter", "variantFilter",
-    "rarityFilter", "alphaFilter", "sortSelect",
+    "rarityFilter", "sortSelect",
   ].forEach((id) => {
     const node = el(id);
     node.addEventListener(id === "searchInput" ? "input" : "change", render);
@@ -342,7 +336,6 @@ function wireControls() {
     el("statusFilter").value = "all";
     el("variantFilter").value = "all";
     el("rarityFilter").value = "all";
-    el("alphaFilter").value = "all";
     el("sortSelect").value = "binder";
     activeTypes.clear();
     document.querySelectorAll(".type-chip.active").forEach((c) => c.classList.remove("active"));
@@ -361,52 +354,23 @@ function wireControls() {
     if (e.target.id === "lightbox") closeLightbox();
   });
 
-  wireScrollHide();
+  wireToggleControls();
 }
 
 // ---------------------------------------------------------------------------
-// Hide the whole top controls block on scroll-down, glide it back on
-// scroll-up — so browsing the grid gets more of the screen. The actual
-// glide animation is a CSS transition on .top-controls (see style.css);
-// this just flips the class that triggers it.
+// Manual show/hide for the whole filter panel — no longer tied to scroll
+// direction at all. The panel stays fixed in place; a small translucent
+// arrow button (always visible, top-left) collapses or reveals it on tap.
 // ---------------------------------------------------------------------------
-function wireScrollHide() {
+function wireToggleControls() {
   const topControls = el("topControls");
-  let anchorY = window.scrollY; // last position we actually reacted to
-  let ticking = false;
+  const toggleBtn = el("toggleControlsBtn");
 
-  // Slow/trackpad/momentum scrolling reports tiny sub-pixel jitter frame to
-  // frame — without a threshold, a single 1px "backwards" blip mid-scroll
-  // would re-trigger hide right after showing, which reads as "slow scroll
-  // up doesn't bring it back." Requiring a real amount of net movement
-  // before reacting filters that noise out while still feeling instant,
-  // since once the threshold is crossed the reveal itself is immediate.
-  const THRESHOLD = 8;
-
-  function update() {
-    const y = window.scrollY;
-    const delta = y - anchorY;
-
-    if (delta > THRESHOLD && y > 90) {
-      topControls.classList.add("hide-on-scroll");
-      anchorY = y;
-    } else if (delta < -THRESHOLD) {
-      topControls.classList.remove("hide-on-scroll");
-      anchorY = y;
-    } else if (y <= 90) {
-      // Always show once back near the top, and keep the anchor honest.
-      topControls.classList.remove("hide-on-scroll");
-      anchorY = y;
-    }
-    ticking = false;
-  }
-
-  window.addEventListener("scroll", () => {
-    if (!ticking) {
-      requestAnimationFrame(update);
-      ticking = true;
-    }
-  }, { passive: true });
+  toggleBtn.addEventListener("click", () => {
+    const collapsed = topControls.classList.toggle("collapsed");
+    toggleBtn.classList.toggle("expanded", !collapsed);
+    toggleBtn.setAttribute("aria-expanded", String(!collapsed));
+  });
 }
 
 boot();

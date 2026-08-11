@@ -365,22 +365,39 @@ function wireControls() {
 }
 
 // ---------------------------------------------------------------------------
-// Hide the whole top controls block on scroll-down, snap it back instantly
-// on scroll-up — so browsing the grid gets more of the screen.
+// Hide the whole top controls block on scroll-down, glide it back on
+// scroll-up — so browsing the grid gets more of the screen. The actual
+// glide animation is a CSS transition on .top-controls (see style.css);
+// this just flips the class that triggers it.
 // ---------------------------------------------------------------------------
 function wireScrollHide() {
   const topControls = el("topControls");
-  let lastY = window.scrollY;
+  let anchorY = window.scrollY; // last position we actually reacted to
   let ticking = false;
+
+  // Slow/trackpad/momentum scrolling reports tiny sub-pixel jitter frame to
+  // frame — without a threshold, a single 1px "backwards" blip mid-scroll
+  // would re-trigger hide right after showing, which reads as "slow scroll
+  // up doesn't bring it back." Requiring a real amount of net movement
+  // before reacting filters that noise out while still feeling instant,
+  // since once the threshold is crossed the reveal itself is immediate.
+  const THRESHOLD = 8;
 
   function update() {
     const y = window.scrollY;
-    if (y > lastY && y > 90) {
+    const delta = y - anchorY;
+
+    if (delta > THRESHOLD && y > 90) {
       topControls.classList.add("hide-on-scroll");
-    } else if (y < lastY) {
+      anchorY = y;
+    } else if (delta < -THRESHOLD) {
       topControls.classList.remove("hide-on-scroll");
+      anchorY = y;
+    } else if (y <= 90) {
+      // Always show once back near the top, and keep the anchor honest.
+      topControls.classList.remove("hide-on-scroll");
+      anchorY = y;
     }
-    lastY = y;
     ticking = false;
   }
 
